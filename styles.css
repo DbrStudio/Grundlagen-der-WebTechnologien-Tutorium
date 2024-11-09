@@ -1,0 +1,138 @@
+body {
+    margin: 32px;
+    background-color: aliceblue;
+    font-family: 'Caveat', cursive;
+}
+
+main, section, article {
+    border: 2px solid #007BFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    margin: 20px;
+}
+
+figure {
+    background-color: #E0F7FA;
+    border: 1px solid #007BFF;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 20px;
+    text-align: center;
+}
+
+figcaption {
+    background-color: rgba(211, 211, 211, 0.295);
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+aside {
+    border: 2px solid #007BFF;
+    background-color: #E0FFE0; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    margin: 20px;
+}
+
+nav {
+    display: flex;
+    flex-flow: column;
+    margin: 16px;
+    gap: 8px;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: column;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.site-nav a {
+    color: orange;
+}
+
+.index a {
+    color: #0056b3;
+}
+
+section {
+    background-color: #FFF4E0; 
+    max-width: fit-content;
+}
+
+article {
+    background-color: #FFE0E0; 
+}
+
+main {
+    background-color: #F5E6F7;
+}
+
+col {
+    background-color: #39393974;
+}
+
+.flexbox {
+    display: flex;
+    gap: 16px;
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Comic Sans MS', 'Comic Sans', sans-serif;
+    font-size: 2.5em;
+    color: #333;
+}
+
+nav {
+    max-width: 200px;
+}
+
+figure {
+    width: fit-content;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-bild {
+    width: auto; 
+    height: 69px;
+}
+
+footer {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:32px;
+}
+
+td, th {
+    border-radius: 0.5rem;
+    padding:0.5rem;
+}
+
+td {
+    padding: 1.5rem;
+}

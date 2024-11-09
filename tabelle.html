@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Komplexe Tabelle Beispiel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="beispielbild.png" type="image/png">
+</head>
+<body>
+    <header>
+        <h1>Beispiel einer komplexen Tabelle</h1>
+    </header>
+    <div class="flexbox">
+    <nav>
+        <ul class="site-nav">
+            <li><a href="index.html">Zur Startseite</a></li>
+            <li><a href="kontakt.html">Zum Kontaktformular</a></li>
+        </ul>
+    </nav>
+
+    <section id="tabelle">
+        <h2>Komplexe Tabelle</h2>
+        <table>
+            <caption>Eine komplexe Tabelle mit verschiedenen HTML5-Elementen</caption>
+            <colgroup>
+                <col span="2">
+                <col span="1">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th rowspan="2">Name</th>
+                    <th colspan="2">Details</th>
+                </tr>
+                <tr>
+                    <th>Alter</th>
+                    <th>Beruf</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Max Mustermann</td>
+                    <td>30</td>
+                    <td>Softwareentwickler</td>
+                </tr>
+                <tr>
+                    <td>Lisa Beispiel</td>
+                    <td>28</td>
+                    <td>Grafikdesignerin</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Diese Tabelle zeigt Beispielpersonen mit deren Alter und Beruf.</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+</div>
+</html>

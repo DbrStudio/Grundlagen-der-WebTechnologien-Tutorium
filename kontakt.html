@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontaktformular</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="beispielbild.png" type="image/png">
+</head>
+<body>
+    <header>
+        <h1>Kontaktieren Sie uns</h1>
+    </header>
+<div class="flexbox">
+    <nav>
+        <ul class="site-nav">
+            <li><a href="index.html">Startseite</a></li>
+            <li><a href="tabelle.html">Komplexe Tabelle</a></li>
+        </ul>
+    </nav>
+
+    <section id="kontaktformular">
+        <h2>Kontaktformular</h2>
+        <form action="/submit" method="post">
+            <fieldset>
+                <legend>Persönliche Informationen</legend>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="anliegen">Anliegen:</label>
+                <select id="anliegen" name="anliegen">
+                    <option value="allgemein">Allgemeine Anfrage</option>
+                    <option value="support">Support</option>
+                    <option value="feedback">Feedback</option>
+                </select><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Nachricht</legend>
+                <label for="nachricht">Ihre Nachricht:</label><br>
+                <textarea id="nachricht" name="nachricht" rows="5" cols="33" required></textarea><br><br>
+            </fieldset>
+
+            <input type="submit" value="Absenden">
+            <input type="reset" value="Löschen">
+        </form>
+    </section>
+</div>
+</body>
+</html>
