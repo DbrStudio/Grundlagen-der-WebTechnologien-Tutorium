@@ -1,0 +1,19 @@
+p + h2 {
+    color: blue;
+} /* h2 das auf p folgt */
+
+h1:first-child {
+    color: red;
+}
+ 
+.important {
+    color: green;
+}
+
+h3:first-letter {
+    color: pink;
+}
+
+p[id] {
+    color: cyan;
+}

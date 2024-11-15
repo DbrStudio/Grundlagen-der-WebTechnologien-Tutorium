@@ -1,0 +1,29 @@
+h1 {
+    color: aqua;
+    font-size: 3rem;
+}
+
+h1 + p {
+    font-family: "lucida console", "comic sans ms", wingdings;
+    text-indent: 40px;
+}
+
+h2, h3 {
+    text-decoration: underline overline wavy 2px #6b2530;
+    color: rgb(79, 169, 179);
+}
+
+p:nth-of-type(2) {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* p:nth-of-type(2) strong {
+    text-decoration: underline;
+} */
+#poop {
+    color: yellow;
+    font-size: 2rem;
+}
