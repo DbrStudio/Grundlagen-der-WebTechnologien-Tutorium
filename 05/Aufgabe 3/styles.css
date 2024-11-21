@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: space-around;
+}
+div{
+    background-color: seashell;
+    border: solid 1px black;
+    height: 300px;
+    border-radius: 16px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 16px;
+    max-width: 30%;
+}
+b{
+    position: relative;
+    font-weight: normal;
+}
+
+b:first-of-type{
+    background-color: aquamarine;
+    left: 80px;
+    top:64px;
+}
+b:last-of-type{
+    background-color: coral;
+    left: 263.8px;
+    top: 128px;
+}

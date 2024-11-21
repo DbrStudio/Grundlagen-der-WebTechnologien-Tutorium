@@ -1,0 +1,19 @@
+body{
+    background-color: #36454F;
+}
+h1, p {
+    padding: 16px;
+    background-color: blanchedalmond;   
+}
+
+p:first-of-type {
+    background-color: lightgoldenrodyellow;
+}
+
+p:nth-of-type(2) {
+    background-color: rgb(89, 90, 72);
+}
+
+p:last-of-type {
+    background-color: rgba(40, 26, 51, 0.404);
+}

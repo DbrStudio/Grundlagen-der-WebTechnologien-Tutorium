@@ -1,0 +1,25 @@
+body{
+    background-color: #36454F;
+    background-image: url("01.jpg");
+}
+
+p {
+    background-image: url("02.avif");
+}
+
+/* h1, p {
+    padding: 16px;
+    background-color: blanchedalmond;   
+}
+
+p:first-of-type {
+    background-color: lightgoldenrodyellow;
+}
+
+p:nth-of-type(2) {
+    background-color: rgb(89, 90, 72);
+}
+
+p:last-of-type {
+    background-color: rgb(40, 26, 51);
+} */

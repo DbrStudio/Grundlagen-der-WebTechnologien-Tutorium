@@ -1,0 +1,27 @@
+header{
+    width: 500px;
+    height: 150px;
+    margin: 50px 0 0 200px;
+    background-color: aliceblue;
+}
+img {
+    float: left;
+    width: 100px;
+    height: auto;
+}
+article {
+    width: 300px;
+    margin-left: 200px;
+    background-color: aquamarine;
+}
+
+aside {
+    width: 200px;
+    position: absolute;
+    left: 508px;
+    top: 220px;
+    background-color: beige;
+}
+/* main{
+    display: flex;
+} */

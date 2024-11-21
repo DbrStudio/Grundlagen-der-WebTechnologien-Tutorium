@@ -1,0 +1,36 @@
+header {
+    width: 490px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 200px;
+    background-color: aliceblue;
+    border: solid 5px transparent;
+}
+
+h1 {
+    margin-left: 200px;
+    margin-top: 0px;
+}
+
+img {
+    float: left;
+    width: auto;
+    height: 150px;
+}
+
+article {
+    padding: 5px;
+    width: 290px;
+    margin-left: 200px;
+    background-color: aquamarine;
+}
+
+aside {
+    padding: 5px;
+    width: 190px;
+    position: absolute;
+    left: 508px;
+    top: 210px;
+    background-color: beige;
+}
+
